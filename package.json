@@ -1,7 +1,7 @@
 
 
 {
-  "name": "bed-ca2-not-nihao",
+  "name": "minute-to-win-it",
   "version": "1.0.0",
   "description": "Web-based game with login functionality",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ST0503-BED/bed-ca2-not-nihao.git"
+    "url": "git+https://github.com/not-nihao/minute-to-win-it.git"
   },
   "keywords": [
     "game",
@@ -23,9 +23,9 @@
   "author": "Nihal Deb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ST0503-BED/bed-ca2-not-nihao/issues"
+    "url": "https://github.com/not-nihao/minute-to-win-it/issues"
   },
-  "homepage": "https://github.com/ST0503-BED/bed-ca2-not-nihao#readme",
+  "homepage": "https://github.com/not-nihao/minute-to-win-it/#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.3.1",
