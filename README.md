@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```powershell
-   git clone https://github.com/ST0503-BED/bed-ca2-not-nihao
+   git clone https://github.com/not-nihao/minute-to-win-it
    ```
 3. Install required libraries & packages
    ```powershell
