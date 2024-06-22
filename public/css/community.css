@@ -1,0 +1,38 @@
+#warningCard1{
+    width: fit-content;
+   text-align: center;
+   margin: auto;
+   margin-top: 20px;
+ }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+/* card effect */
+
+.remove{
+    display: none;}
+
+.box {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Styles for the card when not hovered */
+  .box:hover{
+    .remove{
+        display: block;
+    }
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow when hovered */
+  }
+
+  .active {
+    transition: transform 0.3s ease-in-out;
+  }

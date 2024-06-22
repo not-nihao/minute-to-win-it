@@ -1,0 +1,57 @@
+#chatList{
+  padding:20px;
+  position: relative;
+  margin-top: 30px;
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+#textbox{
+  position:relative;
+  left: 2%
+}
+
+#chatList::-webkit-scrollbar{
+  display: none;
+}
+
+.msgDeleteBtn{
+  max-width: 50px;
+}
+
+#textbox>input[type="text"]{
+  width: 80%;
+}
+#chatInput::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+#textbox>button{
+  width: 15%;
+
+}
+
+.box {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Styles for the card when not hovered */
+.box:hover {
+  transform: scale(1.05); /* Adjust the scale factor as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow when hovered */
+}
+
+.my-msg{
+  background: transparent;
+  border: 2px solid orange;
+}
+.other-msg{
+  background: transparent;
+  border: 2px solid whitesmoke;
+}
+
+
+
+
+
+

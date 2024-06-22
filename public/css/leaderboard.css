@@ -1,0 +1,55 @@
+#leaderboard {
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+#leaderboard::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Styles for the card when not hovered */
+.box:hover {
+    transform: scale(1.05);
+    /* Adjust the scale factor as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Add a shadow when hovered */
+}
+
+
+.gold {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.silver {
+    background: #C0C0C0;
+    border: 2px solid silver;
+    box-shadow: 0 0 10px 0 #C0C0C0;
+}
+.bronze {
+    background: #be6e1e;
+    border: 2px solid #be6e1e;
+    box-shadow: 0 0 10px 0 #be6e1e;
+}

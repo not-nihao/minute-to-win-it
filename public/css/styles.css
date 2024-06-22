@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+.navbar-toggler{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: fit-content;
+  }
+
+  nav{
+    backdrop-filter: blur(5px);
+  }
+
+
+/* form box hover */
+.box {
+    transition: transform ease .5s, box-shadow ease .5s;
+  }
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px whitesmoke;
+  }
+
+  .box-orange {
+    transition: transform ease .5s, box-shadow ease .5s;
+  }
+  .box-orange:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px orange;
+  }
+
+/* warning card / alert style */
+#warningCard{
+   width: fit-content;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#successCard{
+   width: fit-content;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+footer{
+    position: absolute;
+    top: 100%;
+    left: 82%;
+    margin-top: 10px;
+}
+
+
+/* special words styling */
+.headerEffect{
+  background: linear-gradient(
+      to right,
+      #cf7d26 20%,
+      #cd2601 30%,
+      #db7306 70%,
+      #f3c211 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+.modal-content{
+  backdrop-filter: blur(10px);
+}
+
+
+/* points counter in-game */
+/* #pointsCount{
+  transform-style: preserve-3d;
+  position: fixed;
+  top: 20%;
+  right: 2%;
+  font-size: 20px;
+  color: white;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#score {
+  transform-style: preserve-3d;
+  font-size:50px;
+  line-height: 50px;
+}
+#tag {
+  transform-style: preserve-3d;
+  display: none;
+  position:absolute;
+  top: -55px;
+  left:50%;
+  transform: translateX(-50%);
+  font-size:50px;
+  line-height: 50px;
+} */
