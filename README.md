@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/not-nihao/minute-to-win-it">
-    <img src="C:\Users\fanta\Downloads\pngwing.com.png" alt="Logo" width="80" height="80">
+    <img src="https://w7.pngwing.com/pngs/559/1021/png-transparent-game-show-gatton-library-competition-television-show-youtube-spotlight-miscellaneous-blue-game-thumbnail.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Minute To Win It</h3>
