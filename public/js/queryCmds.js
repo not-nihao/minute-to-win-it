@@ -3,7 +3,7 @@
 // This function uses the fetch API to make a request to the server.
 //=====================================================================================
 function fetchMethod(url, callback, method = "GET", data = null, token = null) {
-    console.log("fetchMethod: ", url, method, data, token);
+    console.info("fetchMethod: ", url, method, data, token);
   
     const headers = {};
   
