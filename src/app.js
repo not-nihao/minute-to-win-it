@@ -34,11 +34,6 @@ app.use(limiter);
 //////////////////////////////////////////////////////
 app.use('/api', mainRoute);
 app.use('/', express.static('public'))
-app.get('/:path', function(req, res) {
-  let path = req.params.path;
-  if (isValidPath(path))
-    res.sendFile(path);
-});
 
 //////////////////////////////////////////////////////
 // EXPORT APP
